@@ -48,11 +48,13 @@ int main()
 		  }
 		  x[i] = x[i]/a[i][i];
 	 }
-	 cout<< endl<<"Solution: "<< endl;
+	 cout<< endl<<"Ans No:1 "<< endl;
 	 for(i=1;i<=n;i++)
 	 {
-	  	cout<<"x["<< i<<"] = "<< x[i]<< endl;
+	  	cout<<"\t"<<"a["<< i<<"] = "<< x[i]<< endl;
 	 }
-
+	 cout<<"Ans no 2 :\n";
+     double v = x[1]*6*6 + x[1]*6 + x[2];
+     cout<<"    velocity at t=6 second : v = "<<v<<endl;
 	 return(0);
 }
